@@ -1,5 +1,5 @@
 this is used to record ruby practice and learning.
-###install ruby### 
+###install ruby
     sudo apt-get install  ruby1.9  libruby1.9 libreadline-ruby1.9 irb1.9 
     sudo apt-get install  rdoc1.9 ri1.9
 
