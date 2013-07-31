@@ -1,6 +1,7 @@
 def say_goodnight(name)
-  result="Good night, #{name}"
+  result="Good night, #{name.capitalize}"
   return result
 end
 
 puts say_goodnight('Pa')
+puts say_goodnight('ha')
