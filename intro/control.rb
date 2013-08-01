@@ -1,9 +1,9 @@
 
 count = 11
 
-#tries = 3
+tries = 3
 
-if count > 10 
+if count > 11
   puts "Try again"
 elsif tries == 3
   p "lose"
