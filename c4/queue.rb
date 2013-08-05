@@ -1,0 +1,7 @@
+queue = [] 
+queue.push "red"
+queue.push "green"
+
+
+puts queue.shift
+puts queue.shift
