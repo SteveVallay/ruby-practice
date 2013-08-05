@@ -8,9 +8,6 @@ class BookInStock
   def to_s
     "ISBN:#{@isbn},price:#{@price}"
   end
-  def price=(new_price)
-    @price = new_price
-  end
 end
 
 
