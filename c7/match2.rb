@@ -27,3 +27,12 @@ show_regexp('yes|no',/\|/)
 show_regexp('[yes](no)',/\[yes\]/)
 
 show_regexp('are you sure?',/\?/)
+
+
+str = "thisa is\nthe time"
+
+show_regexp(str,/^the/)
+show_regexp(str,/^this/)
+show_regexp(str,/is$/)
+show_regexp(str,/\Athis/)
+show_regexp(str,/\Athe/)
