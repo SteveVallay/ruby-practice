@@ -13,3 +13,5 @@ end
 show_regexp('very interesting',/t/)
 
 show_regexp('good luck',/oo/)
+
+show_regexp('thanks',/ss/)
