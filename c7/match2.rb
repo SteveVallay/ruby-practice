@@ -15,3 +15,15 @@ show_regexp('very interesting',/t/)
 show_regexp('good luck',/oo/)
 
 show_regexp('thanks',/ss/)
+
+
+#some special character . | () []{} + \ ^ $ * ? 
+
+#if you want to match them add  backslash 
+
+
+show_regexp('yes|no',/\|/)
+
+show_regexp('[yes](no)',/\[yes\]/)
+
+show_regexp('are you sure?',/\?/)
